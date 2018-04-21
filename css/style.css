@@ -83,6 +83,10 @@ figcaption {
 	background-color: blue;
 	
 }
+#extras {
+	width:100%;
+	height: 100%;
+}
 .other-article {
 	display: inline-block;
 	background-color: gray;
@@ -149,14 +153,27 @@ footer {
 	background-color: yellow;
 	
 }
-.other-article {
-	float: right;
+#other-articles {
+	
 	margin: 0 auto;
+}
+
+.other-article {
+	float: left;
+	/*margin: 0 auto;*/
 	width: 42%;
+	margin-bottom: 5px;
 }
 #gear {
-	float: clear;
+
+	float:left;
 }
+#other-articles:after {
+	content: "";
+	clear: both;
+	display: block;
+}
+
 /*
 figcaption {
 	max-width: 200px;

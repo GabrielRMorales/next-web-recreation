@@ -22,12 +22,7 @@ header {
 	/*display: inline-block;*/
 	background-color: red;
 }
-#second-headliner {
 
-}
-#third-headliner {
-	
-}
 .sub-headliner {
 	width: 33%;
 	height: 49%;
@@ -174,22 +169,12 @@ footer {
 	display: block;
 }
 
-/*
-figcaption {
-	max-width: 200px;
-	font-size: 12px;
-	padding: 10px 0;
-}
-.inside img {
-	height: 125px;
-	width: 200px;
-	width: 99%;
-}*/
-
 }
 @media only screen and (max-width: 768px){
-#headliners {
 
+/*media query @768px for smart devices-it keeps shrinking from here*/
+#headliners {
+	
 }
 
 #headliners * {
@@ -209,16 +194,12 @@ figcaption {
 	margin: 10px;
 	padding-right: 10px
 }
-.inside>img, .inside>figcaption {
-	
-}
+
 .inside figure {
 	width: 99%;
 }
 
-.inside h4 {
-	
-}
+
 .inside figcaption {
 	max-width: 75%;
 	height: 35px;
@@ -226,5 +207,18 @@ figcaption {
 	padding-left: 20px;
 	margin-left: 120px;
 }
+#hard-fork, #apps, #gear {
+	margin: 2px 5%;
 }
-/*media query @768px for smart devices-it keeps shrinking from here*/
+.other-article {
+	display: block;
+	background-color: gray;
+	
+	width: 90%;
+	height: 600px;
+}
+.photo {
+	height: 65%;
+}
+
+}
